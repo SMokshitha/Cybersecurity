@@ -4,8 +4,7 @@ import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-# Assuming you have a pandas DataFrame df loaded from your dataset
-# Example:
+# Example
 df = pd.read_csv('customer.csv')
 # Preprocessing
 df['payment_mode'] = df['payment_mode'].astype(str)  # Ensuring it's a string for LabelEncoder
