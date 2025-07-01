@@ -30,7 +30,7 @@ with open('label_encoder.pkl', 'wb') as le_file:
     pickle.dump(label_encoder, le_file)
 print("Model and label encoder saved!")
 
-FLASK
+##FLASK##
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
